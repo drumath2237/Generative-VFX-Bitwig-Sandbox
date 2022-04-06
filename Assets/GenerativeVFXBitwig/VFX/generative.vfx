@@ -1402,7 +1402,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614712}
   - {fileID: 8926484042661614770}
   dataType: 0
-  capacity: 1000
+  capacity: 100000
   stripCapacity: 1
   particlePerStripCount: 128
   needsComputeBounds: 0
@@ -2106,7 +2106,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 21.4
+      m_SerializableObject: 1000
     m_Space: 2147483647
   m_Property:
     name: Rate
@@ -2612,7 +2612,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.33
+      m_SerializableObject: 0.8
     m_Space: 2147483647
   m_Property:
     name: Intensity
@@ -2646,7 +2646,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.97
+      m_SerializableObject: 0.89
     m_Space: 2147483647
   m_Property:
     name: Drag
@@ -2680,7 +2680,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 2.21
+      m_SerializableObject: 1.92
     m_Space: 2147483647
   m_Property:
     name: frequency
@@ -2870,7 +2870,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Sphere, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"center":{"x":0.0,"y":0.0,"z":0.0},"radius":1.0499999523162842}'
+      m_SerializableObject: '{"center":{"x":0.0,"y":0.0,"z":0.0},"radius":1.0199999809265137}'
     m_Space: 0
   m_Property:
     name: sphere
@@ -3448,7 +3448,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614825}
   m_OutputSlots:
   - {fileID: 8926484042661614827}
-  seed: 1
+  seed: 0
   constant: 0
 --- !u!114 &8926484042661614824
 MonoBehaviour:
@@ -3576,7 +3576,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614830}
   m_OutputSlots:
   - {fileID: 8926484042661614832}
-  seed: 1
+  seed: 0
   constant: 0
 --- !u!114 &8926484042661614829
 MonoBehaviour:
@@ -3704,7 +3704,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614835}
   m_OutputSlots:
   - {fileID: 8926484042661614837}
-  seed: 1
+  seed: 0
   constant: 0
 --- !u!114 &8926484042661614834
 MonoBehaviour:
@@ -3891,7 +3891,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 2.5
+      m_SerializableObject: 1
     m_Space: 2147483647
   m_Property:
     name: A
@@ -3982,7 +3982,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 11.35
+      m_SerializableObject: 67.4
     m_Space: 2147483647
   m_Property:
     name: dragCoefficient
@@ -4044,7 +4044,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.05
+      m_SerializableObject: 0.02
     m_Space: 2147483647
   m_Property:
     name: A
@@ -4141,7 +4141,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":0.0},{"color":{"r":6.117647171020508,"g":6.117647171020508,"b":6.117647171020508,"a":1.0},"time":0.47066453099250796},{"color":{"r":0.5,"g":0.5,"b":0.5,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":1.0,"time":0.20872816443443299},{"alpha":0.800000011920929,"time":0.800000011920929},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":0.0},{"color":{"r":3.058823823928833,"g":3.058823823928833,"b":3.058823823928833,"a":1.0},"time":0.47066453099250796},{"color":{"r":0.5,"g":0.5,"b":0.5,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.0,"time":0.0},{"alpha":1.0,"time":0.20872816443443299},{"alpha":0.800000011920929,"time":0.800000011920929},{"alpha":0.0,"time":1.0}],"gradientMode":0}'
     m_Space: 2147483647
   m_Property:
     name: Color
